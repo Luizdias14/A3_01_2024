@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="welcome-back">
+                <h1>Bem-Vindo de volta</h1>
+                <p>Acesse sua conta agora mesmo</p>
+                <button class="enter-btn"><a href="inicio.html">ENTRAR</a></button>
+                <button class="adm-btn"><a href="adm.html">Área do Administrador</a></button>
+            </div>
+
+            <div class="create-account">
+                <h2>Crie sua conta</h2>
+                <p>Cadastre seus dados</p>
+                <form id="registerForm">
+                    <input type="text" id="name" placeholder="NOME" required>
+                    <input type="email" id="email" placeholder="EMAIL" required>
+                    <input type="password" id="password" placeholder="SENHA" required>
+                    <button type="submit" class="register-btn"><a href="cadastro.html">CADASTRAR</a></button>
+                    <p id="error-message" class="error-message"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
